@@ -1,3 +1,7 @@
+const colors = require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme')
+
+
 module.exports = {
   purge: [
     './src/**/*.html',
@@ -5,7 +9,12 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    
+    extend: {
+      fontFamily: {
+        phostic: ['Ubuntu']
+      },
+    },
   },
   variants: {
     extend: {},
