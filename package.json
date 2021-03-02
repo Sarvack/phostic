@@ -13,5 +13,8 @@
     "postcss": "^8.2.6",
     "tailwindcss": "^2.0.3",
     "typeface-ubuntu": "^1.1.13"
+  },
+  "devDependencies": {
+    "tailwindcss-text-fill-stroke": "^1.1.2"
   }
 }
